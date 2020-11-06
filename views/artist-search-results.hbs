@@ -1,0 +1,10 @@
+<h1>artists found list</h1>
+{{#each artistsList}}
+<li>
+    <!-- to display the artistsList in the webpage -->
+    {{name}}
+    <img src={{images.2.url}}>
+    <a href="/albums/{{id}}">View Albums</a>
+    <!-- we find there terms with the first console.log of the data form the API -->
+</li>
+{{/each}}
