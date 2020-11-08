@@ -1,0 +1,57 @@
+body {
+    font-family: sans-serif;
+}
+
+
+  .concert  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/images/spotify-background.jpeg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1460px;
+    height: 800px;
+    padding: 100px;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    margin-top: 15px;
+    margin-left: 100px;
+    padding: 5px;
+    width: 170px;
+    border-radius: 3px;
+    background-color: #ff4c57;
+    color: white;
+    border-color: #fd8c8d;
+    
+}
+
+form {
+    display: block;
+    margin-top: 10px;
+}
+
+.text-form {
+   width: 370px;
+   height: 45px;
+   border-radius: 3px;
+   border-color: #e0e0e0;
+}
+
+.search-form{
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+    justify-content: center;
+    height: 30%;
+    width: 55%;
+    background-color: rgba(255, 255, 255, 0.623);
+    
+  
+}
