@@ -1,11 +1,18 @@
-<h1>albums</h1>
-<ul>
-    {{#each albums}}
-    <li>
-        {{name}}
-        <img src={{images.2.url}}>
-        <a href="/tracks/{{id}}">View Tracks</a>
-    </li>
-    {{/each}}
-
-</ul>
+<div class="background">
+    <div class="container">
+        <h1>Albums</h1>
+        <div class="row">
+            {{#each albums}}
+            <div class="col-sm-4">
+                <div class="card" style="width: 14rem;">
+                    <img src={{images.2.url}} class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">{{name}}</h5>
+                        <a href="/tracks/{{id}}" class="btn btn-primary">View Tracks</a>
+                    </div>
+                </div>
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</div>

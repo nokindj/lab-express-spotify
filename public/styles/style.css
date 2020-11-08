@@ -1,5 +1,38 @@
 body {
     font-family: sans-serif;
+    
+}
+
+.background {
+    background-color:rgb(29, 185, 84);
+    width: 100%;
+}
+.container {
+   padding-top:40px;
+   padding-bottom: 40px;
+ 
+}
+.col-sm-4 {
+    padding: 20px;
+    left: 60px;
+}
+
+#tracks {
+    right: 140px !important;
+}
+.col-sm-6 {
+    padding: 20px;
+    left: 60px;
+}
+
+h1 {
+    color: white;
+}
+
+
+.row {
+    padding-top:10px;
+    padding-bottom: 10px;
 }
 
 
